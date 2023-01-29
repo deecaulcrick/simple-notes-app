@@ -1,0 +1,79 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "DM Sans", sans-serif;
+  padding: 25px;
+}
+
+.heading {
+  font-size: 48px;
+}
+
+.form-wrapper {
+  margin-top: 20px;
+}
+
+.form-control {
+  background-color: transparent;
+  color: white;
+}
+
+.form-control:focus {
+  border-color: rgb(253, 210, 15);
+}
+
+.btn {
+  background-color: rgb(253, 210, 15);
+  color: black;
+}
+.notes-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+.notes-container {
+  border: 1px solid grey;
+  border-radius: 20px;
+  width: 46%;
+  padding: 10px 20px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+}
+
+.notes-container a {
+  color: grey;
+}
+
+.full-note {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+
+.full-note h1 {
+  font-size: 48px;
+}
+
+.full-note a {
+  color: rgb(253, 210, 15);
+}
+
+@media only screen and (min-width: 768px) {
+  body {
+    padding: 50px 200px;
+  }
+
+  .heading {
+    font-size: 60px;
+  }
+
+  .notes-container {
+    border: 1px solid grey;
+    border-radius: 20px;
+    width: 23%;
+    padding: 10px 20px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+}
